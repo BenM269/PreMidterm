@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Paytone+One&display=swap');
+.header {
+  background: #b09464;
+  padding: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("/images/bg.png");
+  /* padding: 18px; */
+  opacity: 60%;
+}
+
+/* header section:title */
+
+
+.title-container {
+  display: inline;
+}
+
+.title-container > h1 {
+  display: inline;
+  font-size: 50px;
+  margin-block: 0px;
+}
+
+.title-container > h1:first-child {
+  color: #ffe999;
+  font-family: Paytone One;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.title-container > h1:nth-child(2) {
+  color: #ffffff;
+  font-family: Paytone One;
+  font-size: 60px;
+  font-weight: 400;
+
+}
+
+/* header section: links */
+.links {
+  display: inline;
+  font-size: 30px;
+  margin-left: 10em;
+}
+.links > ul {
+  list-style: none;
+  display: inline;
+  margin-block: 0px;
+}
+
+.links > ul > li {
+  text-align: center;
+  display: inline;
+  margin-block: 0px;
+  color: white;
+  padding-bottom: 5px;
+  font-family: Abel;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+
+.links > ul > li:first-child {
+  background: #ffe999;
+  padding-top: 50px;
+  padding-bottom: 15.5px;
+  font-style: Paytone One;
+  color: black;
+}
+
+
+/* header section: search */
+.search-icon-container {
+  display: inline;
+}
+
+.search-icon-container > img {
+  width: 50px;
+  display: inline;
+  margin-left: 10em;
+}
